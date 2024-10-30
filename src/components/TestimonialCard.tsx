@@ -2,16 +2,17 @@
 
 import Image from "next/image";
 
-import {
+import TestimonalCardStyle from "@/components/TestimonalCard.module.css";
+const {
   wrapper,
   header,
   img_container,
   img,
   name_container,
-  name as name_style,
-  tag as tag_style,
-  text as text_style,
-} from "@/components/TestimonalCard.module.css";
+  name: name_style,
+  tag: tag_style,
+  text: text_style,
+} = TestimonalCardStyle;
 
 type TestimonialCardProp = {
   img_url: string;
