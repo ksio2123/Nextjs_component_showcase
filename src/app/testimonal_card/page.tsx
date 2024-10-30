@@ -2,7 +2,7 @@ import { TestimonialCard } from "@/components/TestimonialCard";
 import pagestyle from "@/app/testimonal_card/testimonal_card_page.module.css";
 
 const { page } = pagestyle;
-export default () => {
+export default function TestimonalCardPage() {
   return (
     <div className={page}>
       <TestimonialCard
@@ -13,4 +13,4 @@ export default () => {
       />
     </div>
   );
-};
+}
