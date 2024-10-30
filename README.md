@@ -1,4 +1,4 @@
-# Project README
+# Next.js UI components
 
 ## Tech Stack
 
