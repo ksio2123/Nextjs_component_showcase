@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-import TestimonalCardStyle from "@/components/TestimonalCard.module.css";
+import TestimonalCardStyle from "@/app/components/TestimonalCard.module.css";
 const {
   wrapper,
   header,
@@ -15,7 +15,7 @@ const {
 } = TestimonalCardStyle;
 
 type TestimonialCardProp = {
-  img_url: string;
+  img_url: StaticImageData;
   name: string;
   tag: string;
   text: string;

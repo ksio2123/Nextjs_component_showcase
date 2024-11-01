@@ -1,5 +1,6 @@
-import { TestimonialCard } from "@/components/TestimonialCard";
+import { TestimonialCard } from "@/app/components/TestimonialCard";
 import pagestyle from "@/app/testimonal_card/testimonal_card_page.module.css";
+import profilePic from "/public/profile-thumbnail.png";
 
 const { page } = pagestyle;
 export default function TestimonalCardPage() {
@@ -8,7 +9,7 @@ export default function TestimonalCardPage() {
       <TestimonialCard
         name="Sarah Dole"
         tag="sarahdole"
-        img_url="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg"
+        img_url={profilePic}
         text="I've been searching for high-quality abstract images for my design projects, and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!"
       />
     </div>
