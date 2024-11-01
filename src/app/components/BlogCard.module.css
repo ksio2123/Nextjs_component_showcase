@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 21.25rem;
+  height: 31.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.125rem rgb(82, 82, 82);
+  background-color: white;
+  overflow: hidden;
+  /* border: gray 1px solid; */
+}
+.image {
+  object-fit: fill;
+  height: 18rem;
+  width: 23.75rem;
+}
+.badges {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  border: rgb(187, 247, 208) solid 1px;
+  border-radius: 9999px;
+  background-color: rgb(240, 253, 244);
+  color: rgb(21, 168, 61);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0 0.5rem;
+}
+.title {
+  font-size: 1.25rem;
+  color: rgb(23, 23, 23);
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+.text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgb(82, 82, 82);
+  margin-bottom: 1.5rem;
+}
+.content {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.read_more {
+  line-height: 1.5rem;
+  color: rgb(67, 56, 202);
+  /* justify-self: end; */
+}
